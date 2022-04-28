@@ -4,7 +4,7 @@ import {View, Text, StyleSheet, Pressable} from 'react-native';
 const DetailScreen = ({navigation}) => {
   return (
     <View style={styles.screenContainer}>
-      <Text style={styles.title}>Detail Screen</Text>
+      <Text style={styles.title}>Detail ABC</Text>
       <Pressable
         style={styles.buttonStyle}
         onPress={() => navigation.navigate('Home')}>
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#2EE59D',
+    backgroundColor: 'red',
     shadowRadius: 5,
     shadowOpacity: 0.7,
     shadowColor: 'rgba(46, 229, 157, 0.5)',
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     },
   },
   buttonTextStyle: {
-    color: '#fdfdfd',
+    color: '#fff',
     fontWeight: '700',
   },
 });
